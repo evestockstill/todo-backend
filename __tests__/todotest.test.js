@@ -16,7 +16,7 @@ describe('app routes', () => {
   });
 
   let todo;
-  beforeEach(async () => {
+  beforeEach(async() => {
     todo = await Todo.create({
       name: 'do homework',
       description: 'read chapter 10'
